@@ -1,0 +1,253 @@
+.shopbybrand{}
+.shopbybrand-top{
+    height: 157px;
+    text-align: center;
+    line-height: 157px;
+}
+.shopbybrand-top span{
+    color:black;
+    font-size: 20px;
+}
+
+
+.shopbybrand .giorgio .giorgio-pic img{
+    display:inline-block;
+    float:left;
+    width: 680px;
+    height: 560px;
+}
+.giorgio-content-r{
+    margin:0 auto;
+    height: 560px;
+    border:1px solid transparent;
+    text-align: center;
+}
+.giorgio-content img{
+    width: 260px;
+    height: 30px;
+    margin: 200px auto 20px;
+}
+.giorgio-details h6{
+    color:black;
+    font-size: 15px;
+}
+.giorgio-details p{
+    width: 125px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    display:inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.giorgio-details p:hover{
+    color:black;
+    background-color: #b9b9b9;
+}
+.shopbybrand .emporio .emporio-pic img{
+    display:inline-block;
+    width: 680px;
+    height: 560px;
+    margin-right: -11px;
+}
+.emporio-content-r{
+    margin:0 auto;
+    height: 560px;
+    border:1px solid transparent;
+    margin-left: 230px;
+    text-align: center;
+}
+.emporio-content img{
+    width: 260px;
+    height: 189px;
+    margin: 200px auto 20px;
+}
+.emporio-details{
+    margin-top: -50px;
+}
+.emporio-details h6{
+    color:black;
+    font-size: 15px;
+}
+.emporio-details p{
+    width: 125px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    display:inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.emporio-details p:hover{
+    color:black;
+    background-color: #b9b9b9;
+}
+
+.more{
+    overflow: hidden;
+}
+.more .more-details{
+    width: 485px;
+    float:left;
+    margin-top: 15px;
+    text-align: center;
+    display:inline-block;
+    overflow:hidden;
+}
+.more-details-more h6{
+    color:black;
+    font-size: 15px;
+    margin-top: 40px;
+}
+.more-details-more p{
+    width: 125px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    display:inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.more-details-more p:hover{
+    color:black;
+    background-color: #b9b9b9;
+}
+.more-details-more{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.more-again{
+        margin:0 auto;
+        text-align: center;
+}
+.more-again .more-again-xx a{
+    width: 125px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    background-color: black; 
+    position:absolute;
+}
+.world-armani .world-armani-more a{
+    width: 485px;
+    float:left;
+    margin-top: 15px;
+}
+.world-armani-world-more{
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.world-armani-world-more:hover{
+    background-color:  #b9b9b9;
+}
+.world-armani-world-more a{
+    width: 125px;
+    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    }
+.world-armani-world-more a:hover{
+    color:black;
+    }
+
+    .world-armani-world-top{
+    height: 157px;
+    text-align: center;
+    line-height: 157px;
+    }
+    .world-armani-world-top span{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+    .world-armani-more{
+    overflow:hidden;
+    position:relative;
+    }
+    .world-armani-more-pic a img{
+        width: 560px;
+        height: 395px;
+        margin-left: -15px;
+    }
+.about{
+    height: 500px;
+    margin-top: 20px;
+}
+.about-more{
+    position:relative;
+}
+.about-more dl{
+    width: 300px;
+    float:left;
+    margin-left: 50px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.about-more dl dt{
+    color:black;
+}
+.about-dianpu{
+    margin-top: 50px;
+}
+.about-us img{
+    width: 30px;
+    height:30px;
+    margin-left: 20px;
+    display:inline-block;
+    float:left;
+}
+.about-us a span{
+    display:inline-block;
+    margin-top: 2px;
+}
+.about-us dt{
+    margin-bottom: 20px;
+}
+.about-dianpu dt{
+    margin-bottom: 20px;
+}
+.about-dianpu img{
+    width: 30px;
+    height: 30px;
+    display:inline-block;
+    float:left;
+}
+.about-dianpu a p{
+    margin-bottom: 20px;
+}
+.about-dianpu-text{
+    width: 230px;
+    height: 30px;
+    border:1px solid #c8c8c8;
+}
+.about-dianpu-text input{
+    width: 200px;
+    height: 30px;
+    display:inline-block;
+    float:left;
+}
+.about-dianpu-pic img{
+    width: 108px;
+    height: 40px;
+    display:inline-block;
+}
+.about-dianpu-pic-one{
+    margin-left: 400px;
+    margin-top: 130px;
+}

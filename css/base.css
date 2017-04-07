@@ -1,0 +1,193 @@
+/*css基础样式开始*/
+html,body,div,input,p,span,ul,li,h1,h2,h3,h4,h5,h6,a,img,form,dl,dt,dd{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial,Verdana,"\5b8b\4f53";
+    font-size:12px;
+    color:#666;
+    background: #fff;
+}
+
+ul,li{
+    list-style: none;
+    display:inline-block;
+}
+
+a{  
+    display:inline-block;
+    text-decoration: none;
+    color:#666;
+}
+
+i,s,u,b{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+
+img{
+    display: block;
+    border: 0;
+}
+
+input,textarea,form,button{
+    border:none;
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+    resize:none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clearfix::after,.clearfix::before{
+    content:"";
+    display:block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;/*为了兼容ie6,7,8*/
+}
+/*css基础样式结束*/
+/*公共样式开始*/
+.w{
+    width: 1500px;
+    margin: 0 auto;
+}
+.big{
+    overflow: hidden;
+}
+.f{
+    margin-left: 22px;
+    margin-right: 23px;
+
+}
+.head-top{
+    position:fixed;
+    z-index: 1;
+    width: 1500px;
+}
+.logo{
+    background-color: white;
+}
+.logo-ul li{
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    margin-left: -3px;
+    border-right: 1px solid #f0f0f0;
+}
+.logo-ul li.dianpu:hover{
+   background:#fff4f4;
+}
+.logo-ul li.subscibe{
+    width: 150px;
+    height: 55px;
+}
+.logo-ul li.subscibe .youjian{
+    display:inline-block;
+    height: 32px;
+    width: 32px;
+    margin: 10px 0 0 0px ;
+}
+.gouwudai{
+    display:inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px 0 0 0px ;
+}
+.logo-ul li.find{
+    width: 170px;
+    height: 55px;
+    text-align: left;
+    line-height: 55px;
+    background:#b9b9b9;
+}
+.logo-ul li.find:hover{
+    background:#aaaaaa;
+}
+.logo-ul li span{
+    color:white;
+    font-weight: bold;
+}
+.sousuo{
+    display:inline-block;
+    height: 30px;
+    width: 32px;
+    margin: 10px 0 0 0px ;
+}
+.navigation{
+    margin-top: -3px;
+    height: 40px;
+    background-color: #1a1a1a;
+}
+.navigation a{
+    line-height: 40px;
+    color:white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.navigation a:hover{
+    color:gray;
+}
+.banner{
+    height: 631px;
+    text-align: center;
+    background:url('../image/banner.png') no-repeat -83px 0;
+    position:relative;
+    margin-top: 95px;
+    z-index: 0;
+}
+.banner a.banner-more{
+    width: 125px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    margin-top: 380px;
+    margin-left: -86px;
+}
+.banner a.banner-more:hover{
+    color:black;
+    background-color: #b9b9b9;
+}
+.arrow-l,.arrow-r{
+    position: absolute;
+    display: block;
+    width: 58px;
+    height: 78px;
+    background-color: #ffffff;
+    color:black;
+    text-align: center;
+    font:200 40px/77px 'consolas';
+    top:50%;
+    margin-top:-61px;
+}
+.arrow-l{
+    left:0;
+}
+.arrow-r{
+    right:0;
+}
+.arrow-l:hover,.arrow-r:hover{
+    color:white;
+    background-color: #b9b9b9;
+}
